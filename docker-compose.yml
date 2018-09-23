@@ -8,5 +8,5 @@ services:
      volumes:
         - .:/prj
      environment:
-        - FLASK_APP=main.py
+        - FLASK_APP=./app/main.py
         - 'RUN=flask run --host=0.0.0.0 --port=80'

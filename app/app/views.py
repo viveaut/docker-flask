@@ -1,6 +1,5 @@
 from app.app.main import app
 
-print('bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb')
 @app.route("/")
 def hello():
 

@@ -1,9 +1,9 @@
 from app import app
 
-
+print('bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb')
 @app.route("/")
 def hello():
-    print('bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb')
+
     return "Oh, Hello World"
 
 

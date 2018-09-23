@@ -1,4 +1,4 @@
-from flaskApp import app
+from app import app
 
 if __name__ == '__main__':
     # 開発中のみ利用

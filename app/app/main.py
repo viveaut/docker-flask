@@ -1,6 +1,4 @@
-from flask import Flask
-
-app = Flask(__name__)
+from . import app
 
 if __name__ == '__main__':
     # 開発中のみ利用
